@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>URL Parameters</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>URL Parameters</h1>
+      <button id="copyAll" class="copy-all-btn" title="Copiar URL completa">
+        ⎘ Copiar URL
+      </button>
+    </header>
+
+    <div id="urlDisplay" class="url-display"></div>
+
+    <div class="scroll-container">
+      <div id="content" class="content">
+        <!-- Componentes da URL serão inseridos aqui -->
+      </div>
+    </div>
+
+    <div id="noUrl" class="no-url hidden">
+      <p>Não foi possível obter a URL da aba atual.</p>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden">Copiado!</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
