@@ -4,6 +4,8 @@
 
 A Safari extension that analyzes the current tab's URL, displaying its components in an organized way with the option to copy each item to the clipboard.
 
+![Extension Example](img/example.png)
+
 ## Features
 
 - **Complete URL Analysis**: Displays all URL components in an organized manner

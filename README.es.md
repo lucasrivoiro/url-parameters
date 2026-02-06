@@ -4,6 +4,8 @@
 
 Una extensión de Safari que analiza la URL de la pestaña actual, mostrando sus componentes de forma organizada con la opción de copiar cada elemento al portapapeles.
 
+![Ejemplo de la Extensión](img/example.png)
+
 ## Características
 
 - **Análisis completo de URL**: Muestra todos los componentes de la URL de forma organizada
