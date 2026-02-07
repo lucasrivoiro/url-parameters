@@ -4,14 +4,18 @@
   "version": "1.0.0",
   "description": "Analisa a URL atual mostrando seus componentes: protocolo, host, path, query strings e fragmentos",
   "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png",
-    "128": "icons/icon-128.png"
+    "128": "icons/icon-128.png",
+    "256": "icons/icon-256.png",
+    "512": "icons/icon-512.png"
   },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
-      "16": {
+        "16": {
         "light": "icons/icon-16.png",
         "dark": "icons/icon-16-dark.png"
       },
@@ -22,6 +26,22 @@
       "48": {
         "light": "icons/icon-48.png",
         "dark": "icons/icon-48-dark.png"
+      },
+      "96": {
+        "light": "icons/icon-96.png",
+        "dark": "icons/icon-96-dark.png"
+      },
+      "128": {
+        "light": "icons/icon-128.png",
+        "dark": "icons/icon-128-dark.png"
+      },
+      "256": {
+        "light": "icons/icon-256.png",
+        "dark": "icons/icon-256-dark.png"
+      },
+      "512": {
+        "light": "icons/icon-512.png",
+        "dark": "icons/icon-512-dark.png"
       }
     },
     "default_title": "URL Parameters"
